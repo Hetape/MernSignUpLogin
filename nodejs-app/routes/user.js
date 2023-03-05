@@ -8,6 +8,7 @@ const {
   deleteUser,
 } = require("../controllers/user");
 
+//Route
 router.post("/user", createUser);
 
 router.get("/user", readUser);
